@@ -196,13 +196,21 @@ const CoordinatesExtractor = () => {
           </div>
 
           <div className="text-center mt-4 animate-fade-in delay-700">
-            <p className="text-gray-800 text-xs sm:text-sm">
+            <p className="text-gray-600 text-lg sm:text-sm mb-4">Part of the <a
+              href="https://helppme.in"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-bold hover:underline hover:text-gray-800"
+            >
+              helppme.in
+            </a> service discovery platform</p>
+            <p className="text-gray-600 text-xs sm:text-sm">
               © {new Date().getFullYear()} by{" "}
               <a
                 href="https://zabinayath.space"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-bold hover:underline"
+                className="font-bold hover:underline hover:text-gray-800"
               >
                 zabinayath.space
               </a>. All rights reserved.
